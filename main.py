@@ -425,7 +425,7 @@ def game_intro():
     while intro:
         screen.blit(w_page, (0, 0))
         pygame.display.update()
-        pygame.time.wait(15000)
+        pygame.time.wait(2000)
         intro = False
 
 
