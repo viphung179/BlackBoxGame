@@ -382,7 +382,7 @@ def eval_board_click(x, y):
     col = get_board_coord("x", x)
     guess_box.set_invalid_guess(False)
     deflect_color = get_rand_color()
-    print("color", game_board._deflect_color)
+    # print("color", game_board._deflect_color)
 
     if not game_board.get_end_game() and not show_about:
         if make_guess_b.is_over((x, y)):  # if guess button is clicked
